@@ -6,7 +6,17 @@ This is just a sample. No relations have with my current work or private project
 
 ### Just light weight and mvc with mysql.
 
-* I couldn't find so I made it.
+I couldn't find so I made it.
+
+This has just two function - reading and inserting.
+
+And, this uses old grammar of javascript and mysql.
+
+I will upgrade this.
+
+* Add all functions of CRUD
+
+* Refactor with ES6 and other advanced skill
 
 ## how to run
 
@@ -14,7 +24,7 @@ This is just a sample. No relations have with my current work or private project
 
 * create db table (i will add this codes into setting file)
 
-#
+###
 
     Create table board (
     `idx` int not null auto_increment,
@@ -28,7 +38,7 @@ This is just a sample. No relations have with my current work or private project
 
 * run script
 
-#
+###
 
     $ npm install
 
