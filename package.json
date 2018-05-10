@@ -1,0 +1,29 @@
+{
+    "name": "dishnjoy_dev",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node app"
+    },
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "author": "",
+    "license": "ISC",
+    "homepage": "",
+    "dependencies": {
+        "body-parser": "latest",
+        "cookie-parser": "latest",
+        "express": "latest",
+        "express-mysql-session": "latest",
+        "express-session": "latest",
+        "multer": "latest",
+        "node-mysql": "latest",
+        "pug": "latest",
+        "ua-compatible": "latest",
+        "underscore": "latest"
+    }
+}

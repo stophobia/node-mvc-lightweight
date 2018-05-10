@@ -1,0 +1,31 @@
+doctype html
+html.no-js
+	head
+		link(rel='stylesheet' href='/static/style.css')
+	body
+		h1 Title
+		div
+			table
+				tr
+					th Group
+					th Id
+				- for (var i = 0; i < count; ++i) {
+					tr
+						td= subject[i].subject
+						td= subject[i].content
+				- }
+		hr
+		div
+			form(action='/' method='post')
+				table
+					tr
+						td Group
+						td
+							input(id='subject' name='subject' type='text')
+					tr
+						td Id
+						td
+							input(id="content" name="content" type="text")
+					tr
+						td(colspan="2")
+							input(type="submit")

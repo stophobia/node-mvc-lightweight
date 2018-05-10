@@ -1,0 +1,16 @@
+*{
+    font-family: sans-serif;
+}
+table{
+    border-collapse: collapse;
+    border-spacing: none;
+    border: 0;
+}
+table th,
+table td{
+    border: 1px solid #888;
+    padding: 2px 3px;
+}
+table input[type=submit]{
+    width: 100%;
+}
