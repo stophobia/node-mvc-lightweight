@@ -1,20 +1,16 @@
-var mysql = require('mysql');
-var connection = mysql.createConnection({
+const mysql = require('mysql')
+const connection = mysql.createConnection({
 	host : '',
 	port : '',
 	user : '',
 	password : '',
 	database : '',
 	multipleStatements : true
-});
+})
 
-connection.connect(function(err){
-	if(err){
-		// console.error('Error connecting : '+err.stack);
-		return;
-	}
-	// console.log('Connection established.');
-	return;
-});
+connection.connect(err => {
+	if(err) return
+	return
+})
 
-module.exports = connection;
+module.exports = connection
